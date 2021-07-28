@@ -43,7 +43,7 @@ def add_to_doc(doc_path, list_of_pages):
         
     document.save(doc_path)
         
-
+#deals with the primary string processing and formatting 
 def string_processing(files):
     list_of_pages = list()
     for name in files:
